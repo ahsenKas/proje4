@@ -1,30 +1,81 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kendim Hakkımda</title>
-</head>
-<body>
+  </head>
+  <body>
+    <div>
+      <h1>Ben kimim</h1>
+      <p>
+        Merhaba ben Ahsen. 30 yaşındayım İstanbul da yaşıyorum Yazılım
+        mühendisliği mezunuyum ve yazılım geliştirici olmak için eğitim
+        alıyorum.
+        <a href="https://www.linkedin.com/in/ahsenkas/" target="_blank"
+          >Buradan</a
+        >
+        linkedin profilime ulaşabilirsiniz
+      </p>
 
+      <img
+        src="image/cv_foto.jpeg"
+        height="200"
+        width="150"
+        alt="başvuru için görsel"
+      /><br />
+      <p>Başvuru için görselim</p>
 
-    <!-- div ile oraganize edilcek -->
+      <h2>Hobilerim</h2>
+      <ol>
+        <li>Gündemi takip etmek</li>
+        <li>Spor yapmak</li>
+        <li>Kitap okumak</li>
+      </ol>
 
+      <h2>Sevdiğim Yemekeler</h2>
+
+      <ol>
+        <li>Karnıyarık</li>
+        <li>Tantuni</li>
+        <li>Mantı</li>
+      </ol>
+
+      <h2>İlgimi çeken teknolojiler</h2>
+
+      <ol>
+        <li>Yapay zeka</li>
+        <li>Web geliştirme</li>
+        <li>Siber güvenlik</li>
+      </ol>
+    </div>
 
     <div>
+      <form action="#" method="post">
+        <h3>Kayıt için bu kısmı doldurun</h3>
 
-        <p>Merhaba ben Ahsen. 30 yaşındayım İstanbulda yaşıyorum Yazılım mühendisliği mezunuyum ve yazılım geliştrici olmak için eğtim alıyorum.
-             <a href="https://www.linkedin.com/in/ahsenkas/" target="_blank">Buradan</a> linkedin profilime ulaşabilirsiniz</p>
-
-        <img src="images/cv_foto.jpeg">Baivuru için görselim
-
-
-        <ul>
-            <ol></ol>
-        </ul>
-
-
+        <label for="isim"
+          >Adınız
+          <input
+            type="text"
+            id="isim"
+            name="isminiz"
+            placeholder="Lütfen adınızı girin"
+          />
+        </label>
+        <br />
+        <label for="mesaj"
+          >Varsa mesajınız
+          <textarea
+            id="mesaj"
+            name="mesajınız"
+            placeholder="Lütfen mesajınızı girin"
+          >
+          </textarea>
+        </label>
+        <br />
+        <button type="submit">Gönder</button>
+      </form>
     </div>
-    
-</body>
+  </body>
 </html>
